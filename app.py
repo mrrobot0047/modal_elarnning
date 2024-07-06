@@ -13,7 +13,7 @@ CORS(app)
 logging.basicConfig(level=logging.INFO)
 
 # Configure Gemini API
-gemini_api_key = os.getenv("GEMINI_API_KEY")
+gemini_api_key = os.getenv("AIzaSyBTCqg2JDzEcxFtFHVh2g7FkcnxfCWm7rA")
 if not gemini_api_key:
     raise ValueError("No GEMINI_API_KEY set for Flask application")
 
